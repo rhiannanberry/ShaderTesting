@@ -73,15 +73,15 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
-    - _SparkleStrength: 8.48
+    - _SparkleStrength: 10
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _Subtraction: 0.848
+    - _Subtraction: 0.931
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 0.88965523, b: 0, a: 1}
     - _Color2: {r: 1, g: 0.09558821, b: 0.09558821, a: 0.2}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GradientColorA: {r: 0, g: 0, b: 0, a: 1}
+    - _GradientColorA: {r: 0.9632353, g: 0.24080883, b: 0.24080883, a: 1}
     - _GradientColorB: {r: 0, g: 0, b: 0, a: 1}

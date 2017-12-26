@@ -55,7 +55,7 @@ Shader "Custom/Sparkle" {
 
 			randomVectors = normalize(randomVectors);
 
-			float sparkleValue = saturate(dot(normalize(IN.viewDir), randomVectors) - _Subtraction) *  _SparkleStrength;
+			float sparkleValue = saturate((dot(normalize(IN.viewDir), randomVectors) - _Subtraction) *  _SparkleStrength);
 			// Albedo comes from a texture tinted by color
 			fixed4 c = tex2D (_MainTex, IN.uv_MainTex) * _Color;
 			o.Albedo = lerp(_GradientColorA, _GradientColorB, localPos.y);
